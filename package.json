@@ -1,0 +1,23 @@
+{
+  "name": "torus-15-puzzle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": "https://github.com/migiyubi/torus-15-puzzle",
+  "author": "migiyubi",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
